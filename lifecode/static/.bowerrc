@@ -1,0 +1,5 @@
+{
+	"directory": "com",
+	"analytics": false,
+	"timeout": 120000
+}

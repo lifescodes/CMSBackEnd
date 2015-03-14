@@ -56,7 +56,7 @@ class BlogPost(models.Model):
     )
 
     title = models.TextField()
-    slug = models.CharField(max_length=128)
+    slug = models.TextField(default=None, null=True, blank=True)
     content = models.TextField()
     status = models.IntegerField()
     created = models.DateTimeField(auto_now_add=True)

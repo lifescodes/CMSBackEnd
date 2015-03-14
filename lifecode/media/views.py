@@ -121,8 +121,6 @@ class FileUploadView(views.APIView):
 
 class MediaFileFilter(django_filters.FilterSet):
     # manufacturer = django_filters.CharFilter(name="file_type__name")
-
-
     class Meta:
         model = MediaFile
         fields = ['file_type']

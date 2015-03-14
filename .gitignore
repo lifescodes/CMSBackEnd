@@ -1,0 +1,8 @@
+#remove all python compiled files
+*.pyc
+
+#virtual environment should be ignored
+bin/
+include/
+lib/
+local/
